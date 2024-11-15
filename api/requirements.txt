@@ -1,0 +1,18 @@
+tensorflow==2.10.0
+tensorflow-serving-api==2.10.0
+fastapi==0.115.5
+uvicorn
+python-multipart
+pillow
+matplotlib
+numpy>=1.22
+protobuf==3.19.6  # Keep this for TensorFlow compatibility
+prompt-toolkit==3.0.28  # Compatible with rasa-sdk (but update if necessary for ipython)
+typer>=0.12.3  # Update for fastapi-cli compatibility
+pydantic==2.7.4
+absl-py==1.4.0
+attrs>=22.2.0
+jsonschema>=4.18.0
+packaging>=21.0
+networkx==2.8.0
+
